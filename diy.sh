@@ -21,9 +21,10 @@ git clone https://github.com/fw876/helloworld package/helloworld
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 
 ####================= customize personal info =================############
-echo 'replace host name'
-sed -i 's/OpenWrt/HomeNet/g' package/base-files/files/bin/config_generate
-echo 'replace banner'
+### replace host name
+# sed -i 's/OpenWrt/HomeNet/g' package/base-files/files/bin/config_generate
+
+### replace banner
 wget https://raw.githubusercontent.com/dqylyln/as-op/main/banner -O package/base-files/files/etc/banner
 
 #### update and install feeds
