@@ -1,4 +1,4 @@
-name: AutoBuild OpenWrt X64
+name: Build OpenWrt X64
 
 on:
   repository_dispatch:
