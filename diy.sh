@@ -11,15 +11,6 @@ sed -i 's/192.168.1.1/192.168.1.4/g' package/base-files/files/bin/config_generat
 #### add ext luci-app
 git clone https://github.com/kenzok8/small-package package/small-package
 
-#### ext passwall depend
-git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
-
-####================= customize import plugins =================############
-#### hello world
-git clone https://github.com/fw876/helloworld package/helloworld
-### serverchan WX
-git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
-
 ####================= customize personal info =================############
 ### replace host name
 # sed -i 's/OpenWrt/HomeNet/g' package/base-files/files/bin/config_generate
